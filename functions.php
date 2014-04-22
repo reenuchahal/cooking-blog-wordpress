@@ -1,3 +1,3 @@
 <?php
-    include_once(ABSPATH . 'wp-content/themes/cooking/posttypes.php');
+    include_once(ABSPATH . 'wp-content/themes/cooking-blog-wordpress/posttypes.php');
 ?>

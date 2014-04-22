@@ -1,0 +1,210 @@
+@import url('../twentyeleven/style.css');
+@import url(http://fonts.googleapis.com/css?family=Bilbo+Swash+Caps);
+@import url(http://fonts.googleapis.com/css?family=Prata);
+/*
+Theme Name: cooking-blog-wordpress
+Theme URI: http://
+Description: Twenty Eleven child theme with new post types
+Author: You based on work by the WordPress team
+Version: 0.0.1
+Template: twentyeleven
+Tags: two-columns, right-sidebar, custom-header, custom-colors, custom-background, custom-menu, theme-options, threaded-comments, sticky-post, translation-ready, microformats, rtl-language-support, editor-style
+*/
+
+.entry-meta-custom {
+	color: #666;
+	clear: both;
+	font-size: 12px;
+	line-height: 18px;
+	
+}
+.entry-meta-custom a {
+	font-weight: bold;
+}
+
+body{
+overflow-x:hidden;
+}
+body.archive .entry-meta-custom, body.blog .entry-meta-custom  {margin-left: 85px;}
+body.archive .entry-meta, body.blog .entry-meta{
+margin-left: 85px !important;	
+}
+
+#branding {
+    border-top: 0px solid #BBBBBB !important;
+}
+  
+#access {
+    background: linear-gradient(#EB374B, #CF0404) repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    }
+    
+
+body.archive .type-photos .entry-meta {
+margin-left: 0 !important;	
+}
+
+body {
+padding: 0em !important;
+}
+
+#page {
+    margin: 0em auto !important;
+   
+}
+.one-column #page {
+ max-width: 100% !important;
+}
+.sep {
+display:none !important;
+}
+.by-author {
+display:none !important;
+}
+
+body.single .date {
+display: none !important;
+}
+.date p {
+    background: none repeat scroll 0 0 #EB374B;
+    color: #FFFFFF;
+    font-size: 0.75em !important;
+    line-height: 1;
+    margin-bottom: 0;
+    padding: 5px 10px;
+    text-align: right;
+    text-transform: uppercase;
+    
+}
+
+.date {
+
+    display:inline-block;
+ 	width:70px !important;
+ 	height:70px !important;
+    padding-bottom: 14px;
+    padding-right:5px;
+    
+}
+body.archive .entry-content, body.blog .entry-content {
+margin-left: 85px !important;
+}
+
+.entry-title {
+font-weight:normal !important;
+padding-bottom: 0 !important;
+padding-top:0 !important;
+}
+
+.entry-title .date p {
+font-weight: 200 !important;
+}
+
+
+body.archive .hentry:after, body.blog .hentry:after {
+  content: '';
+  width: 0;
+  height: 100%;
+  position: absolute;
+  border: 1px solid #F6F6F6;
+  top: 0;
+  left: 69px;
+}
+
+.myPostType {
+	margin-left: 85px !important;	
+}
+h1#site-title {
+font-family: 'Bilbo Swash Caps', cursive !important;
+
+}
+
+#site-title a {
+font-size:36px !important;
+-webkit-animation:myfirst 5s; /* Chrome, Safari, Opera */
+animation:myfirst 5s;
+
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst
+{
+0%   {color:black;}
+25%  {color:#EB374B;}
+50%  {color:#EB374B;}
+100% {color:black;}
+}
+
+/* Standard syntax */
+@keyframes myfirst
+{
+0%   {color:black;}
+25%  {color:#EB374B;}
+50%  {color:#EB374B;}
+100% {color:black;}
+}
+
+
+h2#site-description {
+font-family: 'Prata', serif;
+margin-left:8px !important;
+}
+
+#access ul {
+font-size: 15px;
+
+}
+
+/* WPT Contact Form
+ * Error and confirmation messages
+ * Form Styles
+---------------------------------------------------------*/
+  .error{
+  padding: 5px 9px;
+  border: 1px solid red;
+  color: red;
+  border-radius: 3px;
+}
+ 
+.success{
+  padding: 5px 9px;
+  border: 1px solid green;
+  color: green;
+  border-radius: 3px;
+}
+form[method=post] {
+   padding-top: 50px;
+}
+form span{
+  color: red;
+}
+.left {
+   float: left;
+   width: 35%;
+}
+.right {
+   float: right;
+   width: 65%;
+}
+.left input {
+   width: 80% !important;
+}
+.right textarea {
+   min-height: 200px;
+   resize: vertical;
+}
+
+#facebook {
+background: url('images/facebook.png') no-repeat !important;
+width:32px;
+height:32px;
+display:inline-block;
+padding:5px;
+}
+
+#twitter {
+background: url('images/twitter.png') no-repeat !important;
+width:32px;
+height:32px;
+display:inline-block;
+padding:5px;
+}
